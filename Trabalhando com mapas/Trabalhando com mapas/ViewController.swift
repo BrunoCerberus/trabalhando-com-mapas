@@ -13,9 +13,11 @@ class ViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var mapa: MKMapView!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("Something hapenned")
     }
 
     override func didReceiveMemoryWarning() {
