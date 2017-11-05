@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ECC5C3CD1FAE9DD600CEAD9E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		ECF4795D1FABCF3C00D5CB99 /* Trabalhando com mapas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trabalhando com mapas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF479601FABCF3C00D5CB99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF479621FABCF3C00D5CB99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,11 +36,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ECC5C3CC1FAE9DD500CEAD9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECC5C3CD1FAE9DD600CEAD9E /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECF479541FABCF3B00D5CB99 = {
 			isa = PBXGroup;
 			children = (
 				ECF4795F1FABCF3C00D5CB99 /* Trabalhando com mapas */,
 				ECF4795E1FABCF3C00D5CB99 /* Products */,
+				ECC5C3CC1FAE9DD500CEAD9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
